@@ -1,0 +1,31 @@
+{
+    "name": "tyteam/wechatpay-guzzle",
+    "authors": [
+        {
+            "name": "lions",
+            "email": "lions.sun@qq.com"
+        }
+    ],
+    "version": "0.1.1",
+    "description": "WechatPay API V3 Guzzle Middleware",
+    "type": "library",
+    "keywords": [
+        "wechatpay"
+    ],
+    "homepage": "https://github.com/tyteam2020/wechatpay-guzzle",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.6",
+        "ext-bcmath": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": { "TyTeam\\WechatPay\\" : "src/" }
+    },
+    "suggest": {
+        "ext-bcmath": "Require bcmath in php 5.* version.",
+        "guzzlehttp/guzzle": "For using wechatpay guzzle middleware."
+    }
+}
